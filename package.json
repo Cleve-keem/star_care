@@ -1,0 +1,16 @@
+{
+  "name": "insave",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "tailwindcss build -i ./src/input.css -o ./build/css/style.css -w",
+    "prettier": "npx run prettier --write ./build/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
