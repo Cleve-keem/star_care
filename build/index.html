@@ -17,7 +17,7 @@
 </head>
 <body>
     <!-- header section -->
-    <header class="py-6 lg:pt-6 lg:pb-14">
+    <header class="py-6 lg:pt-2 lg:pb-8">
         <section class="container mx-auto flex flex-col lg:relative lg:flex-row lg:justify-between">
             <div class="flex justify-center lg:justify-normal">
                 <a href="#">
@@ -156,7 +156,40 @@
         </section>
     </header>
 
-
+    <!-- hero -->
+    <section id="hero" class="bg-grey py-12 lg:pt-12 lg:pb-0">
+        <div class="container mx-auto h-full">
+            <!-- text and image -->
+            <div class="flex flex-col justify-between items-center xl:flex-row">
+                <!-- text -->
+                <div id="hero-text" class="text-center xl:w-[48%] xl:text-left">
+                    <!-- badge -->
+                    <div 
+                        class="bg-white flex justify-center items-center gap-x-2 rounded-full py-[10px] px-[20px] w-max mx-auto xl:mx-0 mb-[20px]"
+                    >
+                        <!-- badge icon-->
+                        <i class="ri-heart-pulse-line text-2xl text-accent"></i>
+                        <!-- bedge text -->
+                        <p class="uppercase text-base font-medium text-[#9ab4b7]">
+                            live your life
+                        </p>
+                    </div>
+                    <!-- text -->
+                    <h3 class="h1 mb-6">We care about your health</h3>
+                    <!-- desc -->
+                    <p 
+                        class="mb-[42px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima cum, unde delectus natus labore nemo error quod? Quibusdam corrupti officia inventore vitae sapiente.
+                        
+                    </p>
+                    <!-- btn -->
+                    <button class="btn btn-lg btn-accent mx-auto xl:mx-0">Contact Us</button>
+                </div>
+                <div id="hero-img" class="hidden xl:flex max-w-[810px] self-end">
+                    <img src="./assets/nurse.png.png" alt="nurse image">
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- SCRIPTS -->
     <!-- swiper -->
     <script src="./js/swiper-bundle.min.js"></script>
