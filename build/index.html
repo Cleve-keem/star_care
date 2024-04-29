@@ -16,6 +16,7 @@
     <title>Starcare</title>
 </head>
 <body>
+    <!-- header section -->
     <header class="py-6 lg:pt-6 lg:pb-14">
         <section class="container mx-auto flex flex-col lg:relative lg:flex-row lg:justify-between">
             <div class="flex justify-center lg:justify-normal">
@@ -101,16 +102,59 @@
                                 id="search-input"
                                 type="text"
                                 placeholder="search..."
-                                class="w-[150px] placeholder:italic outline-none border-b-2 hover:border-accent focus:border-b-2 focus:border-accent px-2">
+                                class="w-[150px] placeholder:italic outline-none border-b-2 hover:border-accent focus:border-b-2 focus:border-accent px-2"
+                            >
                         </form>
                     </div>
+                </nav>
+                <!-- Desktop Nav -->
+                <nav 
+                    class="bg-white w-full h-16 left-0 -bottom-[50px] shadow-custom1 px-[50px] absolute hidden lg:flex lg:justify-between lg:items-center"
+                >
+                    <!-- list -->
+                    <ul class="flex gap-x-4">
+                        <li>
+                            <a 
+                                href="#" class="border-r pr-4 text-secondary hover:text-accent">Home
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="#" class="border-r pr-4 text-secondary hover:text-accent">Doctors
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="#" class="border-r pr-4 text-secondary hover:text-accent">Department
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="#" class="border-r pr-4 text-secondary hover:text-accent">Contact
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="#" class="border-r pr-4 text-secondary hover:text-accent">Blog
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- form -->
+                    <form class="relative flex gap-x-2">
+                        <label for="search-input">
+                            <i class="ri-search-line text-accent text-2xl flex justify-center items-center"></i>
+                        </label>
+                        <input 
+                            id="search-input"
+                            type="text"
+                            placeholder="search..."
+                            class="outline-none border-b-2 w-[120px] hover:border-b-2 hover:border-accent focus:border-b-2 focus:w-[150px] focus:border-accent transition-all duration-500 placeholder:italic"
+                        >
+                    </form>
                 </nav>
             </div>
         </section>
     </header>
-
-
-
 
 
     <!-- SCRIPTS -->
