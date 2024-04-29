@@ -24,11 +24,14 @@
                 </a>
             </div>
             <div class="flex flex-col items-center gap-y-4 lg:flex-row lg:gap-x-10 lg:gap-y-0">
+
+                <!-- location -->
                 <div  class="flex justify-center gap-x-2 lg:justify-normal">
                     <i class="ri-map-pin-fill text-2xl text-accent"></i>
                     <span class="text-secondary">123, General Hospital Road, Badagry</span>
                 </div>
 
+                <!-- phone details -->
                 <div  
                     class="flex justify-center gap-x-2 lg:justify-normal"
                 >
@@ -36,27 +39,70 @@
                     <span class="text-secondary"><a href="tel:07085660421">+234-708-5660-421</a></span>
                 </div>
 
+                <!-- booking button -->
                 <button 
                     class="btn btn-sm btn-ouline w-[240px] mx-auto lg:w-auto lg:mx-0"
                 >
                     Book Now
                 </button>
+
                 <!-- Mobile Nav -->
-                <nav id="mobile-menu" class="fixed bg-pink-200 w-[300px] -left-[300px] h-screen top-0 flex flex-col shadow-2xl lg:hidden z-20">
+                <nav 
+                    id="mobile-menu" class="fixed bg-white w-[300px] -left-[300px] h-screen top-0 flex flex-col shadow-2xl lg:hidden z-20 transition-all duration-500"
+                >
+                <!-- nav list trigger -->
                     <div 
-                        id="mobile-close-menu" class="relative w-8 h-8 bg-primary flex justify-center items-center rounded-tr-xl rounded-br-xl -right-full top-5 transition-all duration-500 shadow-2xl"
+                        id="mobile-close-menu" class="relative w-8 h-8 bg-primary flex justify-center items-center rounded-tr-xl rounded-br-xl -right-full top-5 shadow-2xl"
                     >
                         <i
                             id="mobile-close-menu-icon" class="ri-arrow-right-s-line text-2xl text-white"></i>
                     </div>
-                    <div class="py-6 mx-auto flex flex-col gap-y-4">
-                        <img src="../assets/logo-rm.png" alt="mobile logo">
-                        <ul class="list-none">
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
+
+                    <!-- logo list form -->
+                    <div class="py-6 mx-auto flex flex-col gap-y-12 h-full">
+                        <!-- logo -->
+                        <a href="#">
+                            <img src="../assets/logo-rm.png" alt="mobile logo">
+                        </a>
+                        <!-- list -->
+                        <ul class="list-none flex flex-col gap-y-6">
+                            <li>
+                                <a 
+                                    href="#" class="text-secondary hover:text-accent">Home
+                                </a>
+                            </li>
+                            <li>
+                                <a 
+                                    href="#" class="text-secondary hover:text-accent">Doctors
+                                </a>
+                            </li>
+                            <li>
+                                <a 
+                                    href="#" class="text-secondary hover:text-accent">Department
+                                </a>
+                            </li>
+                            <li>
+                                <a 
+                                    href="#" class="text-secondary hover:text-accent">Contact
+                                </a>
+                            </li>
+                            <li>
+                                <a 
+                                    href="#" class="text-secondary hover:text-accent">Blog
+                                </a>
+                            </li>
                         </ul>
+                        <!-- form -->
+                        <form class="flex gap-[10px]">
+                            <label for="search-input">
+                                <i class="ri-search-line text-accent text-2xl"></i>
+                            </label>
+                            <input 
+                                id="search-input"
+                                type="text"
+                                placeholder="search..."
+                                class="w-[150px] placeholder:italic outline-none border-b-2 hover:border-accent focus:border-b-2 focus:border-accent px-2">
+                        </form>
                     </div>
                 </nav>
             </div>
