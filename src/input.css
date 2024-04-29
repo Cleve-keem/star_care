@@ -47,11 +47,11 @@ h6 {
 }
 .input,
 .select {
-    @apply w-full rounded-[10px] h-[66px] outline-none border border-[#abdfdf] text-secondary font-light placeholder:font-light placeholder:text-secondary
+    @apply w-full rounded-[10px] h-[66px] outline-none border border-[#abdfdf] text-secondary font-light placeholder:font-light placeholder:text-secondary;
 }
 .input{
-    @apply px-4
+    @apply px-4;
 }
-.selection{
+.section{
     @apply py-12 xl:py-[150px];
 }
