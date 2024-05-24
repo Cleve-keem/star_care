@@ -222,6 +222,7 @@
     </section>
     <!-- end stats -->
 
+    <!-- services -->
     <section id="services">
         <div 
             class="bg-blue-300 mx-4 px-6 h-[368px] rounded-[20px] xl:pt-[70px] xl:px-0 relative flex items-center xl:items-start -z-10"
@@ -307,7 +308,57 @@
             </div>
         </div>
     </section>
+    <!-- end service -->
 
+    <!-- appointments -->
+    <section class="section">
+        <div class="container mx-auto">
+
+            <!-- title -->
+            <h2 
+                class="h2 mb-5 text-center xl:mb-[50px] xl:text-left"
+            >
+                Book Appointment Or Call: 
+                <span class="text-accent-tertiary">(+234) 708 566 0421</span>
+            </h2>
+
+            <!-- forms -->
+            <form class="appointment_form flex flex-col gap-y-5">
+                <!-- select aropper -->
+                <div class="flex flex-col xl:flex-row gap-5">
+                    <!-- select 1 -->
+                    <div class="select relative flex items-center">
+                        <!-- icon -->
+                        <div class="absolute right-4">
+                            <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+                        </div>
+                        <!-- select -->
+                        <select id="select-items" class="w-full h-full appearance-none px-4 outline-none bg-transparent">
+                            <option value="1">Select Department</option>
+                            <option value="2">Department 1</option>
+                            <option value="3">Department 2</option>
+                            <option value="4">Department 3</option>
+                        </select>
+                    </div>
+                    <!-- select 2 -->
+                    <div class="select relative flex items-center">
+                        <!-- icon -->
+                        <div class="absolute right-4">
+                            <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+                        </div>
+                        <!-- select -->
+                        <select id="select-items" class="w-full h-full appearance-none px-4 outline-none bg-transparent">
+                            <option value="1">Select Doctors</option>
+                            <option value="2">Dr. Bashir Opeyemi</option>
+                            <option value="3">Dr. Jim Samuel</option>
+                            <option value="4">Dr. Ibrahim Salau</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    
     <!-- SCRIPTS -->
     <!-- swiper -->
     <script src="./js/swiper-bundle.min.js"></script>
