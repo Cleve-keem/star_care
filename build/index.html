@@ -311,7 +311,7 @@
     <!-- end service -->
 
     <!-- appointments -->
-    <section class="section">
+    <section class="appointment section">
         <div class="container mx-auto">
 
             <!-- title -->
@@ -319,7 +319,7 @@
                 class="h2 mb-5 text-center xl:mb-[50px] xl:text-left"
             >
                 Book Appointment Or Call: 
-                <span class="text-accent-tertiary">(+234) 708 566 0421</span>
+                <span class="text-accent-tertiary"><a href="tel:07085660421">(+234)-708-566-0421</a></span>
             </h2>
 
             <!-- forms -->
@@ -367,12 +367,83 @@
                     <input type="date" class="input" placeholder="Full Name">
                     <input type="time" class="input" placeholder="Phone Number">
                 </div>
+
                 <!-- appointment button -->
                 <button class="btn btn-lg btn-accent self-start">BOOK AN APPOINTMENT</button>
             </form>
         </div>
     </section>
-    
+    <!-- end appointment -->
+
+    <!-- testimonial -->
+    <section class="bg-blue-100 py-12 xl:min-h-[595px] xl:py-0">
+        <div class="testimonial-container container mx-auto">
+            <div class="flex flex-col items-center gap-x-14 xl:flex-row">
+                <!-- img -->
+                <div class="hidden xl:flex">
+                    <img src="assets/testimonial/testimonial.png" alt="testimonial image">
+                </div>
+                <!-- slider -->
+                <div class="max-w-[98%] xl:max-w-[710px]">
+                    <!-- slider main container -->
+                    <div class="swiper h-[400px]">
+                        <div class="swiper-wrapper">
+                            <!-- slider 1 -->
+                            <div class="swiper-slide">
+                                <div 
+                                    class="h-full flex flex-col justify-center items-start"
+                                >
+                                    <div 
+                                        class="max-w-[680px] mx-auto text-center xl:text-left "
+                                    >
+                                        <!-- message -->
+                                        <p class="font-light relative text-[22px] text-[#4c5354] leading-[198%] text-center xl:text-left mb-7">
+                                            <span class="mx-2">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est consectetur obcaecati sit nihil ullam eligendi, voluptates veniam voluptatem sequi!
+                                            </span>
+                                        </p>
+                                        <!-- name -->
+                                        <div class="text-[26px] text-[#4c5354] font-semibold ">Jim Samuel</div>
+                                        <!-- job -->
+                                        <div class="font-medium uppercase tracking-[2.24px] text-[#9ab4b7]">Senior Doctor</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slider 2 -->
+                            <div class="swiper-slide">
+                                <div 
+                                    class="h-full flex flex-col justify-center items-start"
+                                >
+                                    <div 
+                                        class="max-w-[680px] mx-auto text-center xl:text-left "
+                                    >
+                                        <!-- message -->
+                                        <p class="font-light relative text-[22px] text-[#4c5354] leading-[198%] text-center xl:text-left mb-7">
+                                            <span class="mx-2">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est consectetur obcaecati sit nihil ullam eligendi, voluptates veniam voluptatem sequi!
+                                            </span>
+                                        </p>
+                                        <!-- name -->
+                                        <div class="text-[26px] text-[#4c5354] font-semibold ">Jim Samuel</div>
+                                        <!-- job -->
+                                        <div class="font-medium uppercase tracking-[2.24px] text-[#9ab4b7]">Senior Doctor</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slider pagination -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+
+
+
+
+    <div class="h-[400px]"></div>
+
     <!-- SCRIPTS -->
     <!-- swiper -->
     <script src="./js/swiper-bundle.min.js"></script>
