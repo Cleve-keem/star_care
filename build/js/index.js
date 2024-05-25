@@ -25,6 +25,7 @@ closeMenu.addEventListener('click', ()=>{
     }
 });
 
+// for testimonial swipe.
 const swiper = new Swiper('.swiper', {
     loop: true,
 
