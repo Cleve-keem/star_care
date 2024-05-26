@@ -20,7 +20,7 @@ closeMenu.addEventListener('click', ()=>{
         navMenu.classList.add(closeNavClass);
 
         openMenuIcon.classList.remove(closeNavIcon);
-        openMenuIcon.classList.add(openNavIcon);
+        openMenuIcon.classList.add(openNavIcon)
 
     }
 });
@@ -33,4 +33,18 @@ const swiper = new Swiper('.swiper', {
         el: '.swiper-pagination',
         clickable: true,
     },
+});
+
+const faqItems = document.querySelectorAll('.faq-item');
+
+faqItems.forEach((item)=>{
+    // const faqBtn = item.querySelector('.faq-btn');
+    const answer = item.querySelector('faq-answer');
+
+    item.addEventListener('click', ()=>{
+        const isOpen = item.classList.toggle('h-full');
+        const faqIcon = isOpen ? 'ri-subtract' : 'ri-add-fill';
+        const faqIconElement = faqBtn.querySelector('i');
+        faqIconElement.classList = `${faqIcon} text-2xl`;
+    })
 });
