@@ -38,12 +38,11 @@ const swiper = new Swiper('.swiper', {
 const faqItems = document.querySelectorAll('.faq-item');
 
 faqItems.forEach((item)=>{
-    // const faqBtn = item.querySelector('.faq-btn');
-    const answer = item.querySelector('faq-answer');
+    const faqBtn = item.querySelector('.faq-btn');
 
     item.addEventListener('click', ()=>{
-        const isOpen = item.classList.toggle('h-full');
-        const faqIcon = isOpen ? 'ri-subtract' : 'ri-add-fill';
+        const isOpen = item.classList.toggle('open');
+        const faqIcon = isOpen ? 'ri-subtract-fill' : 'ri-add-fill';
         const faqIconElement = faqBtn.querySelector('i');
         faqIconElement.classList = `${faqIcon} text-2xl`;
     })

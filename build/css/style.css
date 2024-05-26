@@ -1332,6 +1332,10 @@ h6 {
   }
 }
 
+.faq-item.open .faq-answer {
+  height: 100%;
+}
+
 .placeholder\:italic::-moz-placeholder {
   font-style: italic;
 }
