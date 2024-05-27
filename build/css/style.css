@@ -691,6 +691,14 @@ video {
   margin-top: 2rem;
 }
 
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
 .flex {
   display: flex;
 }
@@ -737,6 +745,22 @@ video {
 
 .min-h-\[400px\] {
   min-height: 400px;
+}
+
+.min-h-\[\] {
+  min-height: ;
+}
+
+.min-h-\[5\] {
+  min-height: 5;
+}
+
+.min-h-\[588\] {
+  min-height: 588;
+}
+
+.min-h-\[588px\] {
+  min-height: 588px;
 }
 
 .w-8 {
@@ -800,6 +824,38 @@ video {
   max-width: 98%;
 }
 
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[1\] {
+  max-width: 1;
+}
+
+.max-w-\[1446\] {
+  max-width: 1446;
+}
+
+.max-w-\[1466px\] {
+  max-width: 1466px;
+}
+
+.max-w-\[555px\] {
+  max-width: 555px;
+}
+
+.max-w-\[6\] {
+  max-width: 6;
+}
+
+.max-w-\[640px\] {
+  max-width: 640px;
+}
+
+.max-w-\[310px\] {
+  max-width: 310px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -860,6 +916,18 @@ video {
   gap: 30px;
 }
 
+.gap-\[\] {
+  gap: ;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
+}
+
 .gap-x-14 {
   -moz-column-gap: 3.5rem;
        column-gap: 3.5rem;
@@ -896,6 +964,19 @@ video {
   row-gap: 1.5rem;
 }
 
+.gap-y-\[50px\] {
+  row-gap: 50px;
+}
+
+.gap-y-\[30px\] {
+  row-gap: 30px;
+}
+
+.gap-x-8 {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
 .self-start {
   align-self: flex-start;
 }
@@ -920,6 +1001,14 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[2\] {
+  border-radius: 2;
+}
+
 .rounded-br-xl {
   border-bottom-right-radius: 0.75rem;
 }
@@ -938,6 +1027,23 @@ video {
 
 .border-r {
   border-right-width: 1px;
+}
+
+.border-\[\#\] {
+  border-color: #;
+}
+
+.border-\[\#d\] {
+  border-color: #d;
+}
+
+.border-\[\#dcdc\] {
+  border-color: #dcdc;
+}
+
+.border-\[\#dcdcdc\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(220 220 220 / var(--tw-border-opacity));
 }
 
 .bg-blue-100 {
@@ -967,6 +1073,21 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-blue-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+}
+
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
 .p-\[30px\] {
@@ -1148,6 +1269,14 @@ video {
 
 .transition-all {
   transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -1447,6 +1576,16 @@ h6 {
     margin-right: 0px;
   }
 
+  .xl\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .xl\:-mt-\[140px\] {
     margin-top: -140px;
   }
@@ -1487,6 +1626,14 @@ h6 {
     max-width: none;
   }
 
+  .xl\:max-w-\[640px\] {
+    max-width: 640px;
+  }
+
+  .xl\:max-w-\[310px\] {
+    max-width: 310px;
+  }
+
   .xl\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -1497,6 +1644,34 @@ h6 {
 
   .xl\:items-start {
     align-items: flex-start;
+  }
+
+  .xl\:items-center {
+    align-items: center;
+  }
+
+  .xl\:justify-center {
+    justify-content: center;
+  }
+
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+
+  .xl\:gap-\[\] {
+    gap: ;
+  }
+
+  .xl\:gap-y-\[\] {
+    row-gap: ;
+  }
+
+  .xl\:gap-y-\[40px\] {
+    row-gap: 40px;
+  }
+
+  .xl\:border-r {
+    border-right-width: 1px;
   }
 
   .xl\:px-0 {
@@ -1513,11 +1688,43 @@ h6 {
     padding-top: 70px;
   }
 
+  .xl\:pt-\[\] {
+    padding-top: ;
+  }
+
+  .xl\:pb-\[\] {
+    padding-bottom: ;
+  }
+
+  .xl\:pt-\[80px\] {
+    padding-top: 80px;
+  }
+
+  .xl\:pb-\[90px\] {
+    padding-bottom: 90px;
+  }
+
+  .xl\:pr-6 {
+    padding-right: 1.5rem;
+  }
+
+  .xl\:pt-6 {
+    padding-top: 1.5rem;
+  }
+
+  .xl\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
   .xl\:text-left {
     text-align: left;
   }
 
   .xl\:text-\[65px\] {
     font-size: 65px;
+  }
+
+  .xl\:text-\[17px\] {
+    font-size: 17px;
   }
 }
