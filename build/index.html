@@ -851,8 +851,34 @@
     </section>
     <!-- end brands -->
 
-    <!-- newsletters -->
-    
+    <!-- newsletter -->
+    <section class="newsletter bg-accent md:h-[444px] py-12 flex items-center relative overflow-hidden">
+        <!-- pattern -->
+        <div class="absolute bg-blue-300 w-[20%] h-[70%] rounded-full opacity-[0.25] overflow-hidden before:content-[''] before:bg-slate-200 before:absolute before:w-[100%] before:h-[100%] before:-top-[70px] before:-left-[100px] before:rounded-full before:opacity-[0.50] after:content-[''] after:bg-slate-200 after:absolute after:w-[100%] after:h-[100%] after:top-[70px] after:-left-[100px] after:rounded-full after:opacity-[0.50] after:overflow-hidden"></div>
+
+        <!-- container-->
+        <div class="newsletter-container container mx-auto">
+            <!-- wrapper -->
+            <div class="flex flex-col lg:flex-row lg:items-center lg:gap-x-[50px]">
+                <!-- text -->
+                <div class="flex-1 z-10 text-center md:text-left">
+                    <div class="text-white tracking-[2.24px] uppercase text-base font-medium">Our newsletter</div>
+                    <h1 class="h1 text-white mb-4">Subscribe to get more update</h1>
+                </div>
+                <form class="flex-1">
+                    <!-- input & button -->
+                    <div class="relative flex flex-col lg:items-center md:flex-row gap-y-4">
+                        <input
+                            type="text"
+                            placeholder="Your email address"
+                            class="rounded-full bg-transparent border-2 border-white w-full h-[66px] outline-none px-[30px] focus:text-white placeholder:text-white"
+                        />
+                        <button class="btn btn-lg btn-white lg:absolute lg:right-0">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
     <!-- end newsletters -->
 
     <div class="h-[400px]"></div>
